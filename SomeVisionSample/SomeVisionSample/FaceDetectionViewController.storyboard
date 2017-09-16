@@ -1,7 +1,49 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KTd-I2-N2c">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Face Detection View Controller-->
+        <scene sceneID="yH3-1h-9cK">
+            <objects>
+                <viewController id="KTd-I2-N2c" customClass="FaceDetectionViewController" customModule="SomeVisionSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VQT-5f-qth">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1dI-Z8-9fP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="587"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nmd-HM-5ub">
+                                <rect key="frame" x="149" y="612" width="77" height="30"/>
+                                <state key="normal" title="画像を選択"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1dI-Z8-9fP" firstAttribute="leading" secondItem="twA-lG-BKM" secondAttribute="leading" id="56Z-hU-kmq"/>
+                            <constraint firstItem="twA-lG-BKM" firstAttribute="bottom" secondItem="Nmd-HM-5ub" secondAttribute="bottom" constant="25" id="KA9-PQ-ave"/>
+                            <constraint firstItem="Nmd-HM-5ub" firstAttribute="top" secondItem="1dI-Z8-9fP" secondAttribute="bottom" constant="25" id="O9u-e3-pjE"/>
+                            <constraint firstItem="Nmd-HM-5ub" firstAttribute="centerX" secondItem="VQT-5f-qth" secondAttribute="centerX" id="Pda-AB-uBb"/>
+                            <constraint firstItem="1dI-Z8-9fP" firstAttribute="trailing" secondItem="twA-lG-BKM" secondAttribute="trailing" id="U87-rM-dCs"/>
+                            <constraint firstItem="1dI-Z8-9fP" firstAttribute="top" secondItem="VQT-5f-qth" secondAttribute="top" id="Y1Q-Ue-gK6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="twA-lG-BKM"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="1dI-Z8-9fP" id="1vJ-GO-Vzg"/>
+                        <outlet property="selectImageButton" destination="Nmd-HM-5ub" id="PqB-a8-oxj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5rT-lx-pfM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.8" y="167.76611694152925"/>
+        </scene>
+    </scenes>
 </document>
