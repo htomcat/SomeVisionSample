@@ -14,6 +14,15 @@
 		F30200E41F6679EC00622FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30200E21F6679EC00622FCE /* LaunchScreen.storyboard */; };
 		F30200EF1F6679ED00622FCE /* SomeVisionSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30200EE1F6679ED00622FCE /* SomeVisionSampleTests.swift */; };
 		F30200FA1F6679ED00622FCE /* SomeVisionSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30200F91F6679ED00622FCE /* SomeVisionSampleUITests.swift */; };
+		F30201081F667BD900622FCE /* ImageAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30201071F667BD900622FCE /* ImageAnalysisViewController.swift */; };
+		F302010A1F6680AA00622FCE /* ImageAnalysisViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30201091F6680AA00622FCE /* ImageAnalysisViewController.storyboard */; };
+		F302010D1F668A1B00622FCE /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F302010C1F66895300622FCE /* MobileNet.mlmodel */; };
+		F3D7AF1B1F67BA7B0031DF44 /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D7AF191F67BA7B0031DF44 /* FaceDetectionViewController.swift */; };
+		F3D7AF1E1F67BF260031DF44 /* FaceDetectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D7AF1D1F67BF260031DF44 /* FaceDetectionViewController.storyboard */; };
+		F3D7AF201F67CD2D0031DF44 /* TextDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D7AF1F1F67CD2D0031DF44 /* TextDetectionViewController.swift */; };
+		F3D7AF221F67CD420031DF44 /* TextDetectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D7AF211F67CD420031DF44 /* TextDetectionViewController.storyboard */; };
+		F3D7AF281F67D7500031DF44 /* ObjectTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D7AF271F67D7500031DF44 /* ObjectTrackingViewController.swift */; };
+		F3D7AF2A1F67D9FC0031DF44 /* ObjectTrackingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D7AF291F67D9FC0031DF44 /* ObjectTrackingViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		F30200F51F6679ED00622FCE /* SomeVisionSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomeVisionSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30200F91F6679ED00622FCE /* SomeVisionSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeVisionSampleUITests.swift; sourceTree = "<group>"; };
 		F30200FB1F6679ED00622FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30201071F667BD900622FCE /* ImageAnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnalysisViewController.swift; sourceTree = "<group>"; };
+		F30201091F6680AA00622FCE /* ImageAnalysisViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageAnalysisViewController.storyboard; sourceTree = "<group>"; };
+		F302010C1F66895300622FCE /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		F3D7AF191F67BA7B0031DF44 /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
+		F3D7AF1D1F67BF260031DF44 /* FaceDetectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FaceDetectionViewController.storyboard; sourceTree = "<group>"; };
+		F3D7AF1F1F67CD2D0031DF44 /* TextDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetectionViewController.swift; sourceTree = "<group>"; };
+		F3D7AF211F67CD420031DF44 /* TextDetectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextDetectionViewController.storyboard; sourceTree = "<group>"; };
+		F3D7AF271F67D7500031DF44 /* ObjectTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTrackingViewController.swift; sourceTree = "<group>"; };
+		F3D7AF291F67D9FC0031DF44 /* ObjectTrackingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ObjectTrackingViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +119,17 @@
 				F30200DB1F6679EC00622FCE /* ViewController.swift */,
 				F30200DD1F6679EC00622FCE /* Main.storyboard */,
 				F30200E01F6679EC00622FCE /* Assets.xcassets */,
+				F302010C1F66895300622FCE /* MobileNet.mlmodel */,
 				F30200E21F6679EC00622FCE /* LaunchScreen.storyboard */,
 				F30200E51F6679EC00622FCE /* Info.plist */,
+				F30201071F667BD900622FCE /* ImageAnalysisViewController.swift */,
+				F30201091F6680AA00622FCE /* ImageAnalysisViewController.storyboard */,
+				F3D7AF191F67BA7B0031DF44 /* FaceDetectionViewController.swift */,
+				F3D7AF1D1F67BF260031DF44 /* FaceDetectionViewController.storyboard */,
+				F3D7AF1F1F67CD2D0031DF44 /* TextDetectionViewController.swift */,
+				F3D7AF211F67CD420031DF44 /* TextDetectionViewController.storyboard */,
+				F3D7AF271F67D7500031DF44 /* ObjectTrackingViewController.swift */,
+				F3D7AF291F67D9FC0031DF44 /* ObjectTrackingViewController.storyboard */,
 			);
 			path = SomeVisionSample;
 			sourceTree = "<group>";
@@ -234,7 +261,11 @@
 			files = (
 				F30200E41F6679EC00622FCE /* LaunchScreen.storyboard in Resources */,
 				F30200E11F6679EC00622FCE /* Assets.xcassets in Resources */,
+				F3D7AF1E1F67BF260031DF44 /* FaceDetectionViewController.storyboard in Resources */,
 				F30200DF1F6679EC00622FCE /* Main.storyboard in Resources */,
+				F3D7AF221F67CD420031DF44 /* TextDetectionViewController.storyboard in Resources */,
+				F302010A1F6680AA00622FCE /* ImageAnalysisViewController.storyboard in Resources */,
+				F3D7AF2A1F67D9FC0031DF44 /* ObjectTrackingViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F302010D1F668A1B00622FCE /* MobileNet.mlmodel in Sources */,
+				F30201081F667BD900622FCE /* ImageAnalysisViewController.swift in Sources */,
 				F30200DC1F6679EC00622FCE /* ViewController.swift in Sources */,
 				F30200DA1F6679EC00622FCE /* AppDelegate.swift in Sources */,
+				F3D7AF1B1F67BA7B0031DF44 /* FaceDetectionViewController.swift in Sources */,
+				F3D7AF281F67D7500031DF44 /* ObjectTrackingViewController.swift in Sources */,
+				F3D7AF201F67CD2D0031DF44 /* TextDetectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SomeVisionSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.htomcat.SomeVisionSample;
@@ -441,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SomeVisionSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.htomcat.SomeVisionSample;
